@@ -2,6 +2,8 @@
 
 **Painting realistic fake tumors into real mouse CT scans, to train a tumor segmenter when you only have a handful of hand-labeled scans.**
 
+**Interactive write-up: [mohithgajjela.com/system-06-fauxgraft](https://mohithgajjela.com/system-06-fauxgraft)**. Change the label budget and compare the real models' predictions, or try to spot the fake tumors.
+
 In preclinical imaging, the slow part isn't scanning. It's an expert outlining every tumor in 3D by hand so a model can learn from it. Fauxgraft makes synthetic subcutaneous xenografts and pastes them into real micro-CT scans. Each fake is lumpy, bulges out of the flank, and has tissue texture matched to the real tumors. Then it asks one question: **how many hand labels is that worth?**
 
 ![gallery](docs/gallery.png)
