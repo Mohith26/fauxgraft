@@ -1,0 +1,6 @@
+{
+ "pairwise_dice_mean": 0.9001781411849148,
+ "pairwise_vol_diff_pct_mean": 10.248089591039317,
+ "pairwise_vol_diff_pct_median": 8.080174606605915,
+ "n_test_scans": 114
+}
